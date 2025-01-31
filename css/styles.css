@@ -565,27 +565,29 @@ border: none;
 .modal-comment{
   margin-bottom: 16px;
 }
-
-.modal-close-btn:hover {
-  background-color: rgb(64, 75, 191);
-  border: none;
-  fill: #fff;
-}
-
+.modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: #404bbf;
-  border: none;
-  fill: #fff;
-}
-.modal-field {
-  margin-bottom: 8px;
+  background-color: rgb(64, 75, 191); 
 }
 
+.modal-close-btn:hover .icons-f,
+.modal-close-btn:focus .icons-f {
+  fill: #ffffff; /
+ 
+}
+.icons-f{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .icons-f {
   fill: #2e2f42;
   width: 8px;
   height: 8px;
 }
+.modal-field {
+  margin-bottom: 8px;
+}
+
+
 .modal-text {
   font-size: 16px;
   font-weight: 500;
@@ -708,7 +710,9 @@ height: 16px;
 
 .check-icon{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
 .modal-desk{
   color: #4d5ae5;
 }
@@ -744,4 +748,3 @@ height: 16px;
   background-color: #404bbf;
   fill: #ffffff
 }
-
