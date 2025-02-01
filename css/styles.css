@@ -568,6 +568,7 @@ border: none;
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: rgb(64, 75, 191); 
+  border: none; 
 }
 
 .modal-close-btn:hover .icons-f,
@@ -700,8 +701,8 @@ margin-bottom: 24px;
 font-size: 12px;
 letter-spacing: 0.04em;
 color: #8e8f99;
-display: flex;
-align-items: center;
+
+
 line-height: 1.17; 
 border-radius: 4px;
 width: 360px;
